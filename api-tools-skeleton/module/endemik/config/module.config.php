@@ -82,8 +82,8 @@ return [
     ],
     'api-tools-content-negotiation' => [
         'controllers' => [
-            'endemik\\V1\\Rest\\Plant\\Controller' => 'HalJson',
-            'endemik\\V1\\Rest\\Animal\\Controller' => 'HalJson',
+            'endemik\\V1\\Rest\\Plant\\Controller' => 'Json',
+            'endemik\\V1\\Rest\\Animal\\Controller' => 'Json',
         ],
         'accept_whitelist' => [
             'endemik\\V1\\Rest\\Plant\\Controller' => [
